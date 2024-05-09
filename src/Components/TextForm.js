@@ -227,18 +227,18 @@ export default function TextForm(props) {
                         }}
                         rows="10"
                     ></textarea>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handleloClick}>Convert to Lowercase</button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handletiClick}>Convert to Titlecase</button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handlesenClick}>Convert to Sentence Case</button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handleextraspaces}>Remove Extra Spaces</button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handlecopy}>Copy Text</button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={speak}><i className="bi bi-volume-up"></i></button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={stop}>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handleUpClick}>Convert to Uppercase</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handleloClick}>Convert to Lowercase</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handletiClick}>Convert to Titlecase</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handlesenClick}>Convert to Sentence Case</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handleextraspaces}>Remove Extra Spaces</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handlecopy}>Copy Text</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={speak}><i className="bi bi-volume-up"></i></button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={stop}>
                         {isPaused ? <i className="bi bi-play"></i> : <i className="bi bi-pause"></i>}
                     </button>
-                    <button className="btn btn-primary btn-m my-4 mx-1" onClick={handleDownload}>Download File</button>
-                    <button className="btn btn-danger btn-m my-4 mx-1" onClick={handleclrClick}>Clear</button>
+                    <button className="btn btn-primary btn-m my-4 mx-1 mb-0" onClick={handleDownload}>Download File</button>
+                    <button className="btn btn-danger btn-m my-4 mx-1 mb-0" onClick={handleclrClick}>Clear</button>
                 </div>
             </div>
             <div className="container my-3" style={{ color: props.mode === 'dark' ? 'white' : '#042743' }}>
